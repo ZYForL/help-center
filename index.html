@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>软件帮助中心</title>
+    <style>
+        /* 背景设置 */
+        body {
+            background-image: url('Resources/网页背景图.jpg'); /* 替换为你的图片路径 */
+            background-size: cover;
+            background-attachment: fixed;
+            font-family: 'Microsoft Yahei', Arial;
+            margin: 0;
+            min-height: 100vh;
+        }
+
+        /* 内容容器 */
+        .container {
+            background-color: rgba(255, 255, 255, 0.85);
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        /* 协议下载区 */
+        .protocol-section {
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 20px;
+            margin-bottom: 25px;
+        }
+
+        .download-btn {
+            display: inline-block;
+            background: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background 0.3s;
+        }
+
+            .download-btn:hover {
+                background: #0056b3;
+            }
+
+        /* 表单容器 */
+        #feedback-form {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>软件技术支持中心</h1>
+
+        <!-- 协议下载 -->
+        <section class="protocol-section">
+            <h2>通信协议文档</h2>
+            <p>当前版本：v2.1 (2024.03更新)</p>
+            <a href="https://your-cdn.com/protocol.zip"
+               class="download-btn"
+               download="software_protocol.zip">下载协议包</a>
+        </section>
+
+        <!-- 留言表单 -->
+        <div id="feedback-form">
+            <!-- 替换为你的表单嵌入代码（示例使用Typeform） -->
+            <div data-tf-live="01HTEXAMPLE"></div>
+            <script src="//embed.typeform.com/next/embed.js"></script>
+        </div>
+    </div>
+</body>
+</html>
